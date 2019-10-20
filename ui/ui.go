@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aclimov/aclimov/model"
+	"go_http_test/model"
 )
 
 type Config struct {

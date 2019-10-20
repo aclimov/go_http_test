@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/aclimov/go_http_test/model"
+	"go_http_test/model"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"   //     _ "github.com/lib/pq"
 )

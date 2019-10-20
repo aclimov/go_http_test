@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/aclimov/go_http_test/daemon"
+	"go_http_test/daemon"
 )
 
 var assetsPath string

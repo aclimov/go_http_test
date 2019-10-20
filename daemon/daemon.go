@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/aclimov/go_http_test/db"
-	"github.com/aclimov/go_http_test/model"
-	"github.com/aclimov/go_http_test/ui"
+	"go_http_test/db"
+	"go_http_test/model"
+	"go_http_test/ui"
 )
 
 type Config struct {
