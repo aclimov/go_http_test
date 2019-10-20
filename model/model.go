@@ -1,24 +1,20 @@
 package model
 
-type db interface {
-    SelectPeople() ([]*Person, error)
-}
-
 type Model struct {
-    db
+	db
 }
 
-func New(db db) *Model{
-    return &Model{
-        db: db
-    }
+func New(db db) *Model {
+	return &Model{
+		db: db,
+	}
 }
 
-func (m *Model) People() ([] *Person, error){
-    return m.SelectPeople()
+func (m *Model) People() ([]*Person, error) {
+	return m.SelectPeople()
 }
 
 type Person struct {
-    Id int64
-    First, Last string
+	Id          int64
+	First, Last string
 }
